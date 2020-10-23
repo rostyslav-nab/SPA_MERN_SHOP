@@ -6,9 +6,9 @@ import classes from '../scss/Header.module.scss'
 export const HeaderFC = () => {
     return (
         <>
-            <Menu theme="dark" mode="horizontal">
-                <Menu.Item key="1"><a href='/login'>Sign In</a></Menu.Item>
-                <Menu.Item key="2">Cart</Menu.Item>
+            <Menu theme="dark" mode="horizontal" style={{float: 'right'}}>
+                <Menu.Item key="1"><a href='/login'><i className='fas fa-shopping-cart'/> Sign In</a></Menu.Item>
+                <Menu.Item key="2"><a href='/cart'><i className='fas fa-user'/> Cart</a></Menu.Item>
             </Menu>
 
         </>
