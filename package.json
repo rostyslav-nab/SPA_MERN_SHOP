@@ -1,0 +1,27 @@
+{
+  "name": "spa_shop_mern",
+  "version": "1.0.0",
+  "description": "MERN Shopping Cart",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rostyslav-nab/SPA_MERN_SHOP.git"
+  },
+  "keywords": [
+    "MERN",
+    "JS",
+    "MongoDB"
+  ],
+  "author": "Rostyslav Nabok <rostyslav.nabok@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rostyslav-nab/SPA_MERN_SHOP/issues"
+  },
+  "homepage": "https://github.com/rostyslav-nab/SPA_MERN_SHOP#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
